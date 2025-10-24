@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Inc
+-I.\RTE\_carcar
+-ID:\Keil5\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include
+-ID:\Keil5\Pack\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F446xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F446xx
+-o carcar\main.o --omf_browse carcar\main.crf --depend carcar\main.d "../Core/Src/main.c"
